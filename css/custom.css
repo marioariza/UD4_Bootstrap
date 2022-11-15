@@ -7,6 +7,33 @@
     font-family: 'Titulo';
 }
 
-.bg_azul {
+.navegacion_nombre {
+    padding: 10%;
+    font-size: 10vh;
+}
+
+.navegacion_arriba {
+    display: flex;
+    justify-content: center;
+    font-size: 5vh;
+}
+
+.nba2k {
+    display: flex;
+    justify-content: start;
+    padding: 10%;
+    font-size: 25vh;
+    color: white;
     background-color: blue;
+    border-bottom: 5px solid white;
+}
+
+.nbaleaguepass {
+    display: flex;
+    justify-content: end;
+    padding: 10% 20%;
+    font-size: 25vh;
+    color: white;
+    background-color: blue;
+    border-bottom: 5px solid white;
 }
