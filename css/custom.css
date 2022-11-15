@@ -19,11 +19,41 @@
 }
 
 .texto_tamaño {
-    font-size: 10vh;
-    padding: 7%;
+    font-size: 10vh; 
 }
 
-@media screen and (max-width: 640px) {
+.posicion_texto {
+    padding: 5% 15% 3%;
+}
+
+.giflillard {
+    width: 30%;
+    height: auto;
+}
+
+
+@media screen and (max-width: 992px) {
+    .navegacion_nombre {
+        padding: 8%;
+        font-size: 8vh;
+    }    
+    
+    .navegacion_arriba {
+        font-size: 4vh;
+        
+    }
+    .texto_tamaño {
+        font-size: 5vh;
+        padding: 5%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navegacion_nombre {
+        padding: 7%;
+        font-size: 7vh;
+    }  
+
     .navegacion_arriba {
         font-size: 3vh;
         
