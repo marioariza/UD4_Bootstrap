@@ -18,18 +18,19 @@
     font-size: 5vh;
 }
 
-.nba2ktext {
-    display: flex;
-    justify-content: end;
-    font-size: 15vh;
-    text-align: center;
-    padding: 5%;
+.texto_tamaño {
+    font-size: 10vh;
+    padding: 7%;
 }
 
-.nba2k {
-    width: 95%;
-    height: auto;
-    display: flex;
-    justify-content: start;
-    margin-left: 0;
+@media screen and (max-width: 640px) {
+    .navegacion_arriba {
+        font-size: 3vh;
+        
+    }
+    .texto_tamaño {
+        font-size: 4vh;
+        padding: 5%;
+    }
 }
+
