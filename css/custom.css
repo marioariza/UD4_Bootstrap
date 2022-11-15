@@ -18,22 +18,18 @@
     font-size: 5vh;
 }
 
-.nba2k {
-    display: flex;
-    justify-content: start;
-    padding: 10%;
-    font-size: 25vh;
-    color: white;
-    background-color: blue;
-    border-bottom: 5px solid white;
-}
-
-.nbaleaguepass {
+.nba2ktext {
     display: flex;
     justify-content: end;
-    padding: 10% 20%;
-    font-size: 25vh;
-    color: white;
-    background-color: blue;
-    border-bottom: 5px solid white;
+    font-size: 15vh;
+    text-align: center;
+    padding: 5%;
+}
+
+.nba2k {
+    width: 95%;
+    height: auto;
+    display: flex;
+    justify-content: start;
+    margin-left: 0;
 }
