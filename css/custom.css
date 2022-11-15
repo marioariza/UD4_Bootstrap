@@ -26,11 +26,24 @@
     padding: 5% 15% 3%;
 }
 
-.giflillard {
-    width: 30%;
-    height: auto;
+.fondo1 {
+    border-top: 15px solid blue;
+    border-bottom: 15px solid blue;
 }
 
+.texto2k {
+    text-align: center;
+    padding: 3%;
+    font-size: 9vh;
+   
+}
+
+.textoleaguepass {
+    text-align: center;
+    padding: 3%;
+    font-size: 9vh;
+    
+}
 
 @media screen and (max-width: 992px) {
     .navegacion_nombre {
@@ -40,8 +53,8 @@
     
     .navegacion_arriba {
         font-size: 4vh;
-        
     }
+
     .texto_tamaño {
         font-size: 5vh;
         padding: 5%;
@@ -56,8 +69,8 @@
 
     .navegacion_arriba {
         font-size: 3vh;
-        
     }
+
     .texto_tamaño {
         font-size: 4vh;
         padding: 5%;
