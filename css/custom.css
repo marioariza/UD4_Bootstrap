@@ -1,3 +1,5 @@
+/* GLOBAL */
+
 @font-face {
     font-family: 'Titulo';
     src: url(../fonts/titulos.ttf);
@@ -7,13 +9,7 @@
     font-family: 'Titulo';
 }
 
-.login {
-    width: 15%;
-    height: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+/* MENÚ */
 
 .navegacion_nombre {
     padding: 10%;
@@ -41,6 +37,8 @@
     font-size: 3vh;
 }
 
+/* TEXTO BAJO BANNER */
+
 .texto_tamaño {
     font-size: 8vh; 
 }
@@ -48,6 +46,8 @@
 .posicion_texto {
     padding: 5% 15% 3%;
 }
+
+/* NBA 2K 23 */
 
 .fondo1 {
     border-top: 15px solid blue;
@@ -67,6 +67,8 @@
     color: white;
 }
 
+/* NBA LEAGUE PASS */
+
 .botonleaguepass {
     font-size: 4vh;
     text-decoration: none;
@@ -81,7 +83,7 @@
 }
 
 @media screen and (max-width: 1400px) {
-    .navegacion_nombre {
+    /* .navegacion_nombre {
         padding: 8%;
         font-size: 8vh;
     }    
@@ -117,11 +119,11 @@
         padding: 3%;
         font-size: 5.5vh;
         
-    }
+    } */
 }
 
 @media screen and (max-width: 1200px) {
-    .navegacion_nombre {
+    /* .navegacion_nombre {
         padding: 8%;
         font-size: 8vh;
     }    
@@ -151,11 +153,11 @@
         padding: 3%;
         font-size: 4.5vh;
         
-    }
+    } */
 }
 
 @media screen and (max-width: 992px) {
-    .navegacion_nombre {
+    /* .navegacion_nombre {
         padding: 8%;
         font-size: 8vh;
     }    
@@ -185,11 +187,11 @@
         padding: 3%;
         font-size: 4vh;
         
-    }
+    } */
 }
 
 @media screen and (max-width: 768px) {
-    .navegacion_nombre {
+    /* .navegacion_nombre {
         padding: 7%;
         font-size: 7vh;
     }  
@@ -219,11 +221,11 @@
         padding: 3%;
         font-size: 3vh;
         
-    }
+    } */
 }
 
 @media screen and (max-width: 576px) {
-    .navegacion_nombre {
+    /* .navegacion_nombre {
         padding: 7%;
         font-size: 7vh;
     }  
@@ -253,5 +255,72 @@
         padding: 3%;
         font-size: 3vh;
         
+    } */
+
+    /* MENÚ */
+
+    .navegacion_nombre {
+        padding: 10%;
+        font-size: 6vh;
+        color: blue;
+    }
+
+    .navegacion_nombre2 {
+        padding: 10%;
+        font-size: 6vh;
+        color: red;
+    }
+
+    .navegacion_arriba {
+        display: flex;
+        justify-content: center;
+        font-size: 3vh;
+    }
+
+    .texto_despliegue {
+        font-size: 2.5vh;
+    }
+
+    /* TEXTO BAJO BANNER */
+
+    .texto_tamaño {
+        font-size: 3vh; 
+    }
+
+    .posicion_texto {
+        padding-top: 5% 15%;
+    }
+
+    /* NBA 2K 23 */
+
+    .fondo1 {
+        border-top: 15px solid blue;
+        border-bottom: 15px solid blue;
+    }
+
+    .texto2k {
+        text-align: center;
+        padding: 3%;
+        font-size: 4vh;
+    }
+
+    .boton2k {
+        font-size: 3vh;
+        text-decoration: none;
+        color: white;
+    }
+
+    /* NBA LEAGUE PASS */
+
+    .botonleaguepass {
+        font-size: 3vh;
+        text-decoration: none;
+        color: white;
+    }
+
+    .textoleaguepass {
+        text-align: center;
+        padding: 3%;
+        font-size: 4vh;
     }
 }
