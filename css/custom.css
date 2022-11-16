@@ -26,11 +26,11 @@
 .navegacion_arriba {
     display: flex;
     justify-content: center;
-    font-size: 5vh;
+    font-size: 4.5vh;
 }
 
 .separa_nav{
-    margin-left: 70px;
+    margin-left: 60px;
 }
 
 .texto_despliegue {
