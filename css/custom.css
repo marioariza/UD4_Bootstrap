@@ -225,37 +225,6 @@
 }
 
 @media screen and (max-width: 576px) {
-    /* .navegacion_nombre {
-        padding: 7%;
-        font-size: 7vh;
-    }  
-
-    .navegacion_arriba {
-        font-size: 3vh;
-    }
-
-    .texto_despliegue {
-        font-size: 3vh;
-    }
-
-    .texto_tamaño {
-        font-size: 4vh;
-        padding: 5%;
-    }
-
-    .texto2k {
-        text-align: center;
-        padding: 3%;
-        font-size: 3vh;
-       
-    }
-    
-    .textoleaguepass {
-        text-align: center;
-        padding: 3%;
-        font-size: 3vh;
-        
-    } */
 
     /* MENÚ */
 
@@ -284,7 +253,7 @@
     /* TEXTO BAJO BANNER */
 
     .texto_tamaño {
-        font-size: 3vh; 
+        font-size: 4vh; 
     }
 
     .posicion_texto {
