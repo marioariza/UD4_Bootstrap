@@ -129,13 +129,13 @@
 
 .teoria_nbaleague {
     font-size: 5vh;
-    padding: 7% 7% 0%;
+    padding: 4% 7% 0%;
 }
 
 .titulo_nbaleague {
     font-size: 9vh;
     font-weight: bolder;
-    padding: 2% 7%;
+    padding: 4% 7% 0%;
 }
 
 @media screen and (max-width: 1400px) {
@@ -233,6 +233,29 @@
         font-size: 15vh;
         color: red;
     }
+
+    /* QUE ES NBA LEAGUE */
+
+    .posicion_texto_nbaleague {
+        padding: 5% 15% 3%;
+        background-color: blue;
+    }
+
+    .texto_nbaleague {
+        font-size: 12vh;
+        color: white;
+    }
+
+    .teoria_nbaleague {
+        font-size: 5vh;
+        padding: 4% 7% 0%;
+    }
+
+    .titulo_nbaleague {
+        font-size: 9vh;
+        font-weight: bolder;
+        padding: 4% 7% 0%;
+    }
 }
 
 @media screen and (max-width: 1200px) {
@@ -325,6 +348,29 @@
     .texto_dias_finals {
         font-size: 12vh;
         color: red;
+    }
+
+    /* QUE ES NBA LEAGUE */
+
+    .posicion_texto_nbaleague {
+        padding: 5% 15% 3%;
+        background-color: blue;
+    }
+
+    .texto_nbaleague {
+        font-size: 10vh;
+        color: white;
+    }
+
+    .teoria_nbaleague {
+        font-size: 4vh;
+        padding: 4% 7% 0%;
+    }
+
+    .titulo_nbaleague {
+        font-size: 8vh;
+        font-weight: bolder;
+        padding: 4% 7% 0%;
     }
 }
 
@@ -419,6 +465,29 @@
         font-size: 8vh;
         color: red;
     }
+
+    /* QUE ES NBA LEAGUE */
+
+    .posicion_texto_nbaleague {
+        padding: 5% 15% 3%;
+        background-color: blue;
+    }
+
+    .texto_nbaleague {
+        font-size: 9vh;
+        color: white;
+    }
+
+    .teoria_nbaleague {
+        font-size: 4vh;
+        padding: 4% 7% 0%;
+    }
+
+    .titulo_nbaleague {
+        font-size: 7vh;
+        font-weight: bolder;
+        padding: 4% 7% 0%;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -511,6 +580,29 @@
     .texto_dias_finals {
         font-size: 9vh;
         color: red;
+    }
+
+    /* QUE ES NBA LEAGUE */
+
+    .posicion_texto_nbaleague {
+        padding: 5% 15% 3%;
+        background-color: blue;
+    }
+
+    .texto_nbaleague {
+        font-size: 8vh;
+        color: white;
+    }
+
+    .teoria_nbaleague {
+        font-size: 4vh;
+        padding: 4% 7% 0%;
+    }
+
+    .titulo_nbaleague {
+        font-size: 6vh;
+        font-weight: bolder;
+        padding: 4% 7% 0%;
     }
 }
 
@@ -605,5 +697,28 @@
     .texto_dias_finals {
         font-size: 7vh;
         color: red;
+    }
+
+    /* QUE ES NBA LEAGUE */
+
+    .posicion_texto_nbaleague {
+        padding: 5% 15% 3%;
+        background-color: blue;
+    }
+
+    .texto_nbaleague {
+        font-size: 7vh;
+        color: white;
+    }
+
+    .teoria_nbaleague {
+        font-size: 3vh;
+        padding: 4% 7% 0%;
+    }
+
+    .titulo_nbaleague {
+        font-size: 5vh;
+        font-weight: bolder;
+        padding: 4% 7% 0%;
     }
 }
