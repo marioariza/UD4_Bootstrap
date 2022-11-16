@@ -1,3 +1,7 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
 @font-face {
     font-family: 'Titulo';
     src: url(../fonts/titulos.ttf);
@@ -18,8 +22,12 @@
     font-size: 5vh;
 }
 
+.texto_despliegue {
+    font-size: 3vh;
+}
+
 .texto_tamaño {
-    font-size: 10vh; 
+    font-size: 8vh; 
 }
 
 .posicion_texto {
@@ -34,15 +42,87 @@
 .texto2k {
     text-align: center;
     padding: 3%;
-    font-size: 9vh;
+    font-size: 8vh;
    
+}
+
+.boton2k {
+    font-size: 5vh;
 }
 
 .textoleaguepass {
     text-align: center;
     padding: 3%;
-    font-size: 9vh;
+    font-size: 7.5vh;
     
+}
+
+@media screen and (max-width: 1400px) {
+    .navegacion_nombre {
+        padding: 8%;
+        font-size: 8vh;
+    }    
+    
+    .navegacion_arriba {
+        font-size: 4vh;
+    }
+
+    .texto_despliegue {
+        font-size: 3vh;
+    }
+
+    .texto_tamaño {
+        font-size: 5vh;
+        padding: 5%;
+    }
+
+    .texto2k {
+        text-align: center;
+        padding: 5%;
+        font-size: 5.5vh;
+       
+    }
+    
+    .textoleaguepass {
+        text-align: center;
+        padding: 3%;
+        font-size: 5.5vh;
+        
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .navegacion_nombre {
+        padding: 8%;
+        font-size: 8vh;
+    }    
+    
+    .navegacion_arriba {
+        font-size: 4vh;
+    }
+
+    .texto_despliegue {
+        font-size: 3vh;
+    }
+
+    .texto_tamaño {
+        font-size: 5vh;
+        padding: 5%;
+    }
+
+    .texto2k {
+        text-align: center;
+        padding: 5%;
+        font-size: 5.5vh;
+       
+    }
+    
+    .textoleaguepass {
+        text-align: center;
+        padding: 3%;
+        font-size: 4.5vh;
+        
+    }
 }
 
 @media screen and (max-width: 992px) {
@@ -55,9 +135,27 @@
         font-size: 4vh;
     }
 
+    .texto_despliegue {
+        font-size: 3vh;
+    }
+
     .texto_tamaño {
         font-size: 5vh;
         padding: 5%;
+    }
+
+    .texto2k {
+        text-align: center;
+        padding: 5%;
+        font-size: 3.5vh;
+       
+    }
+    
+    .textoleaguepass {
+        text-align: center;
+        padding: 3%;
+        font-size: 4vh;
+        
     }
 }
 
@@ -71,9 +169,60 @@
         font-size: 3vh;
     }
 
+    .texto_despliegue {
+        font-size: 3vh;
+    }
+
     .texto_tamaño {
         font-size: 4vh;
         padding: 5%;
     }
+
+    .texto2k {
+        text-align: center;
+        padding: 3%;
+        font-size: 3vh;
+       
+    }
+    
+    .textoleaguepass {
+        text-align: center;
+        padding: 3%;
+        font-size: 3vh;
+        
+    }
 }
 
+@media screen and (max-width: 576px) {
+    .navegacion_nombre {
+        padding: 7%;
+        font-size: 7vh;
+    }  
+
+    .navegacion_arriba {
+        font-size: 3vh;
+    }
+
+    .texto_despliegue {
+        font-size: 3vh;
+    }
+
+    .texto_tamaño {
+        font-size: 4vh;
+        padding: 5%;
+    }
+
+    .texto2k {
+        text-align: center;
+        padding: 3%;
+        font-size: 3vh;
+       
+    }
+    
+    .textoleaguepass {
+        text-align: center;
+        padding: 3%;
+        font-size: 3vh;
+        
+    }
+}
