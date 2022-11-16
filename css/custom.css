@@ -318,7 +318,7 @@
     }
     
     .texto_finals {
-        font-size: 12vh;
+        font-size: 6vh;
         color: white;
     }
     
@@ -335,7 +335,7 @@
     }
     
     .texto_dias_finals {
-        font-size: 16vh;
+        font-size: 10vh;
         color: red;
     }
 }
@@ -411,7 +411,7 @@
     }
     
     .texto_finals {
-        font-size: 10vh;
+        font-size: 6vh;
         color: white;
     }
     
@@ -428,7 +428,7 @@
     }
     
     .texto_dias_finals {
-        font-size: 14vh;
+        font-size: 9vh;
         color: red;
     }
 }
@@ -505,7 +505,7 @@
     }
 
     .texto_finals {
-        font-size: 8vh;
+        font-size: 4vh;
         color: white;
     }
 
@@ -522,7 +522,7 @@
     }
 
     .texto_dias_finals {
-        font-size: 12vh;
+        font-size: 7vh;
         color: red;
     }
 }
