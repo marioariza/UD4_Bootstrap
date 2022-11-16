@@ -7,9 +7,24 @@
     font-family: 'Titulo';
 }
 
+.login {
+    width: 15%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .navegacion_nombre {
     padding: 10%;
     font-size: 10vh;
+    color: blue;
+}
+
+.navegacion_nombre2 {
+    padding: 10%;
+    font-size: 10vh;
+    color: red;
 }
 
 .navegacion_arriba {
