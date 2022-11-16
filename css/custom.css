@@ -115,7 +115,7 @@
     color: red;
 }
 
-/* QUE ES NBA LEAGUE */
+/* QUE ES */
 
 .posicion_texto_nbaleague {
     padding: 5% 15% 3%;
@@ -136,6 +136,15 @@
     font-size: 9vh;
     font-weight: bolder;
     padding: 4% 7% 0%;
+}
+
+.imagen_playoffs {
+    width: 45%;
+    height: auto;
+    display: block;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 @media screen and (max-width: 1400px) {
