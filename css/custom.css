@@ -172,7 +172,7 @@
 }
 
 .imagen_trofeo {
-    width: 60%;
+    width: 35%;
     height: auto;
     display: block;
     margin: auto;
@@ -196,6 +196,7 @@
 .teoria_palmares {
     font-size: 3vh;
     padding: 4% 7% 0%;
+    margin-bottom: 5%;
     font-family: 'Texto';
     color: white;
 }
@@ -205,6 +206,24 @@
     font-weight: bolder;
     padding: 4% 7% 0%;
     color: white;
+}
+
+.imagen_titulos_equipos {
+    width: 40%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.que_equipo {
+    color: white;
+    font-size: 5vh;
+    text-align: center;
+}
+
+.carrusel-equipos {
+    display: block;
+    margin: auto;
 }
 
 @media screen and (max-width: 1400px) {
