@@ -172,17 +172,13 @@
 }
 
 .imagen_trofeo {
-    width: 35%;
+    width: 40%;
     height: auto;
     display: block;
     margin: auto;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin-bottom: 15%;
 }
 
-.flecha {
-    color: black;
-}
 
 .debajo_texto_palmares {
     background-color: blue;
@@ -209,7 +205,7 @@
 }
 
 .imagen_titulos_equipos {
-    width: 40%;
+    width: 30%;
     height: auto;
     display: block;
     margin: auto;
