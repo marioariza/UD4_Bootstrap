@@ -171,6 +171,42 @@
     margin-bottom: 5%;
 }
 
+.imagen_trofeo {
+    width: 60%;
+    height: auto;
+    display: block;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.flecha {
+    color: black;
+}
+
+.debajo_texto_palmares {
+    background-color: blue;
+    border-bottom: 20px solid white;
+}
+
+.debajo_texto_palmares2 {
+    background-color: red;
+}
+
+.teoria_palmares {
+    font-size: 3vh;
+    padding: 4% 7% 0%;
+    font-family: 'Texto';
+    color: white;
+}
+
+.titulo_palmares {
+    font-size: 7vh;
+    font-weight: bolder;
+    padding: 4% 7% 0%;
+    color: white;
+}
+
 @media screen and (max-width: 1400px) {
     /* MENÚ */
 
