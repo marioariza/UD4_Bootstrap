@@ -1,3 +1,5 @@
+/* CARGA PANTALLA */
+
 .loader {
     background-color: #4e6eb5;
     width: 100%;
@@ -14,12 +16,16 @@
     visibility: hidden;
 }
 
-
 /* GLOBAL */
 
 @font-face {
     font-family: 'Titulo';
     src: url(../fonts/titulos.ttf);
+}
+
+@font-face {
+    font-family: 'Texto';
+    src: url(../fonts/texto_fino.otf);
 }
 
 * {
@@ -145,12 +151,13 @@
 }
 
 .teoria_nbaleague {
-    font-size: 5vh;
+    font-size: 3vh;
     padding: 4% 7% 0%;
+    font-family: 'Texto';
 }
 
 .titulo_nbaleague {
-    font-size: 9vh;
+    font-size: 7vh;
     font-weight: bolder;
     padding: 4% 7% 0%;
 }
