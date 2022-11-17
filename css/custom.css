@@ -213,6 +213,12 @@
 
 .que_equipo {
     color: white;
+    font-size: 7vh;
+    text-align: center;
+}
+
+.cuantos_campeonatos {
+    color: white;
     font-size: 3vh;
     text-align: center;
 }
@@ -220,6 +226,7 @@
 .carrusel-equipos {
     display: block;
     margin: auto;
+    margin-bottom: 10%;
 }
 
 @media screen and (max-width: 1400px) {
