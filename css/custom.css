@@ -695,6 +695,18 @@
         font-weight: bolder;
         padding: 4% 7% 0%;
     }
+    
+    .que_equipo {
+        color: white;
+        font-size: 4vh;
+        text-align: center;
+    }
+    
+    .cuantos_campeonatos {
+        color: white;
+        font-size: 3vh;
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 576px) {
@@ -811,5 +823,17 @@
         font-size: 5vh;
         font-weight: bolder;
         padding: 4% 7% 0%;
+    }
+
+    .que_equipo {
+        color: white;
+        font-size: 4vh;
+        text-align: center;
+    }
+    
+    .cuantos_campeonatos {
+        color: white;
+        font-size: 3vh;
+        text-align: center;
     }
 }
