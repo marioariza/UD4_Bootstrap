@@ -229,6 +229,10 @@
     margin-bottom: 10%;
 }
 
+.nombre_tabla {
+    color: blue;
+}
+
 @media screen and (max-width: 1400px) {
     /* MENÚ */
 
