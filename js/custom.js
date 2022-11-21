@@ -3,7 +3,7 @@ window.addEventListener("load",function() {
 })
 
 function evaluarQuiz() {
-    let respuestaCorrectas = ["A","B","D","B","A","C","C","D","A","A"];
+    let respuestaCorrectas = ["A","B","D","B","A","C","C","D","B","A"];
     let respuestasUsuario = new Array();
     let respuestasPreguntas = new Array();
     let aciertos = 0;
