@@ -34,7 +34,7 @@ function evaluarQuiz() {
     console.log(countPreguntas);
 
     if (countPreguntas == 10) {
-        html = "<p class='titulo_nbaleague'>Resultado</p>";
+        html = "<p class='titulo_nbaleague'>Resultado (desliza hacía abajo)</p>";
         html += "<table class='table'>";
         html += "<tr>";
         html += "<td>Pregunta</td>";
