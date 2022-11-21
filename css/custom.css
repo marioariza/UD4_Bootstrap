@@ -240,6 +240,11 @@
     margin: 5%;
 }
 
+.equipos {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
 @media screen and (max-width: 1400px) {
     /* MENÚ */
 
