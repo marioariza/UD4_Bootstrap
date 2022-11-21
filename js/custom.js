@@ -3,7 +3,7 @@ window.addEventListener("load",function() {
 })
 
 function evaluarQuiz() {
-    let respuestaCorrectas = ["A","B","A","A","A","A","A","A","A","A"];
+    let respuestaCorrectas = ["A","B","D","B","A","C","C","D","A","A"];
     let respuestasUsuario = new Array();
     let respuestasPreguntas = new Array();
     let aciertos = 0;
@@ -13,7 +13,7 @@ function evaluarQuiz() {
     let imagenRespuestas = new Array();
     for (let i = 0; i < 10; i++) {
         respuestasPreguntas = document.getElementsByName('p'+(i+1));
-        for (let j = 0; j < 3; j++) {
+        for (let j = 0; j < 4; j++) {
             if(respuestasPreguntas[j].checked == true) {
                 countPreguntas++;
                 respuestasUsuario[i] = respuestasPreguntas[j].value;
@@ -30,6 +30,9 @@ function evaluarQuiz() {
     for (let i = 0; i < 10; i++) {
         console.log("Respuesta - " + (i+1) + "Imagen" + imagenRespuestas[i]);
     }
+
+    console.log(countPreguntas);
+
     if (countPreguntas == 10) {
         html = "<p class='titulo_nbaleague'>Resultado</p>";
         html += "<table class='table'>";
@@ -37,7 +40,7 @@ function evaluarQuiz() {
         html += "<td>Pregunta</td>";
         html += "<td>Resp Usuario</td>";
         html += "<td>Resp Correcta</td>";
-        html += "<td>Imagen</td>";
+        html += "<td></td>";
         html += "</tr>";
         for (let i = 0; i < 10; i++) {
         html += "<tr>";
@@ -51,7 +54,15 @@ function evaluarQuiz() {
         html += "<td colspan=4>Número de aciertos = "+aciertos+"</td>";
         html += "</tr>";
         html += "</table>";
+
+        if(aciertos > 5) {
+            html += "<img src='img/gifbien.gif' class='img-fluid imagen_playoffs' alt='...'>";
+        } else {
+            html += "<img src='img/gifmal.gif' class='img-fluid imagen_playoffs' alt='...'>";
+        }
         document.getElementById("resultado").innerHTML=html;
+
+
     } else {
         alert('Faltan preguntas por contestar');
     }
@@ -60,7 +71,7 @@ function evaluarQuiz() {
 function resetQuiz() {
     for (let i = 0; i < 10; i++) {
         respuestasPreguntas = document.getElementsByName('p'+(i+1));
-        for (let j = 0; j < 3; j++) {
+        for (let j = 0; j < 4; j++) {
             respuestasPreguntas[j].checked = false;
         }
     }
