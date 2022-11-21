@@ -233,6 +233,13 @@
     color: blue;
 }
 
+.paginacion {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10%;
+}
+
 @media screen and (max-width: 1400px) {
     /* MENÚ */
 
